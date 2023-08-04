@@ -64,7 +64,7 @@ def start(profile):
             time.sleep(10)
             continue
 
-    print(f'Followed all {len(ident_follow)} except {str(*bad)}')
+    print(f'{profile} Followed all {len(ident_follow)} except {str(*bad)}')
 
 process = []
 if __name__ == '__main__':
